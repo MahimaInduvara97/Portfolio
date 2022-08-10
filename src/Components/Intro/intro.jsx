@@ -12,7 +12,6 @@ import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import Html from "../../img/html_css.png"
 import { motion } from "framer-motion";
-import {Link} from "react-router-dom";
 
 const Intro = () => {
     const transition = { duration: 2, type: "spring" };

@@ -2,11 +2,9 @@ import React, {Component} from 'react';
 import './PortContent.css'
 import Upwork from "../../img/wordpress-i.png";
 import Fiverr from "../../img/react-i.png";
-import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/html_css-i.png";
 import Facebook from "../../img/javasc.png";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import {useLocation} from 'react-router-dom';
