@@ -1,0 +1,92 @@
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+      /* scroll */
+  padding-top: 3rem;
+}
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+textarea{
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+.c-blur2{
+    top: 4rem;
+    left: 5rem;
+    z-index: 1;
+    display: none;
+}
+.details-co{
+    position: relative;
+    display: flex;
+    margin-top: -40px;
+    padding: 2rem 3rem 2rem 4rem;
+    height: 15rem;
+    margin-left: 40px;
+    inset: 2px;
+    left: 2rem;
+    right: 0;
+    background-image: url("../../img/taxi-26.png");
+    background-size: cover;
+    border: transparent;
+    border-radius: 25px;
+}
+.mydetails{
+    flex-direction: column;
+    line-height: 50px;
+
+}
+.dtls{
+    margin-left: 20px;
+    margin-top: -10px !important;
+    color: var(--black);
+}
+@media screen and (max-width: 480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+    .details-co{
+        display: none;
+    }
+    .awesome{
+        align-items: center;
+    }
+
+}   

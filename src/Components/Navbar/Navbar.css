@@ -1,0 +1,102 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.n-left{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.n-name{
+    position: absolute;
+    margin-bottom: -4.3rem;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--black) !important;
+    text-decoration: none;
+}
+.n-right{
+    flex:1;
+    display: flex;
+    gap: 1rem;
+}
+.n-list{
+    flex: 10;
+}
+.mobile-nav-toggle{
+    display: none;
+}
+.n-list >ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    margin-top: 30px;
+    gap: 2.8rem;
+}
+.n-list >ul>li:hover{
+
+    cursor: pointer;
+    color:var(--orange)
+
+}
+.submit-button{
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 15px;
+    height: 2.4rem;
+}
+@media screen and (max-width: 480px) {
+    .n-list {
+      display: block;
+    }
+    .submit-button{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 35em) {
+    .n-list{
+        position: fixed;
+        inset: 0 0 0 30%;
+        background: hsl(0 0% 100% / 0.1);
+        backdrop-filter: blur(1.7rem);
+        z-index: 2;
+        transform: translateX(100%);
+        transition: transform 350ms ease-out ;
+    }
+    .n-list >ul{
+        position: absolute;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.4rem;
+        padding: min(30vh, 10rem) 0em;
+    }
+    .n-list[data-visible="true"]{
+        transform: translateX(0%);
+    }
+
+    .mobile-nav-toggle{
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        background: url("../../img/blackhambu.png");
+        background-size: cover;
+        background-color: transparent;
+        border: 0;
+        width: 1.7rem;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 2rem;
+
+    }
+    .mobile-nav-toggle[aria-expanded = "true"]{
+        background-image: url("../../img/cloase.png");
+        background-size: cover;
+
+    }
+}
