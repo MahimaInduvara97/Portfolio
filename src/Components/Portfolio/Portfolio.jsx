@@ -6,6 +6,7 @@ import Sidebar from "../../img/plc.png";
 import Ecommerce from "../../img/central.png";
 import cccc from "../../img/cc1.png";
 import zeed from "../../img/zeed1.png";
+import fct from "../../img/flyproject.png"
 import{Link, useNavigate } from "react-router-dom";
 
 function Portfolio (props) {
@@ -22,6 +23,9 @@ function Portfolio (props) {
         const portfolio4=()=>{
             navigate('/portfolios',{state:{id: 1, name: 'Freelance', develop: '2022' ,techno:'PHP, CMS(Wordpress)', source:'https://cccc.lk/', projectlogo:'https://cccc.lk/wp-content/uploads/2022/05/Corporate-ConsultantsLogo.png'}});
 }
+    const portfolio5=()=>{
+        navigate('/portfolios',{state:{id: 1, name: 'Freelance', develop: '2022' ,techno:'PHP, CMS(Wordpress)', source:'https://flycatchertrails.com/', projectlogo:'https://flycatchertrails.com/wp-content/uploads/2022/09/Flycatcher-Trails-Logo-Final002.png'}});
+    }
 
             return (
             <div className="portfolio" id="portfolio">
@@ -37,7 +41,12 @@ function Portfolio (props) {
                     className="portfolio-slider"
                 >
                     <SwiperSlide>
-
+                        <div className="port-details">
+                            <a onClick={()=>{portfolio5()}}><img src={fct} alt="" /></a>
+                            <h3>FCT <span>2022</span></h3>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <div className="port-details">
                                 <a onClick={()=>{portfolio1()}}><img src={Sidebar} alt="" /></a>
                             <h3>PLC <span>2021</span></h3>
