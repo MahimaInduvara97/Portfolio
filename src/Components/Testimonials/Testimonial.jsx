@@ -15,31 +15,31 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Great Service. Can Customize everything according to your Requirements. 100% recommended 👍😊",
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Highly recommended 🔥😏👌",
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        " Mahima did a fantastic job creating a new website for Petcare Center. A fantastic service, we would highly recommend and we will continue to work with him.",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Mahima created our website by talking to us often and asking our opinions. The service was given to us in very accordance with the money and it’s very respect. We highly recommend him .",
     },
   ];
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Clients always get </span>
-        <span>Exceptional Work </span>
-        <span>from me...</span>
+        <span>I always Provide </span>
+        <span>Excellent Service </span>
+        <span>for my clients !!!</span>
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
@@ -47,7 +47,7 @@ const Testimonial = () => {
       <Swiper
         // install Swiper modules
         modules={[Pagination]}
-        slidesPerView={1}
+        slidesPerView={2}
         pagination={{ clickable: true }}
       >
         {clients.map((client, index) => {

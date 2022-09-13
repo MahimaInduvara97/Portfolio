@@ -23,9 +23,10 @@ const Services = () => {
         <span>I,m Good at</span>
         <span>Technologies</span>
         <span>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          I am Fresher graduate of Sri Lanka Institute of Information Technology
           <br />
-          ispum is simpley dummy text of printing
+           (SLIIT) specializing in Information technology.<br/>
+          I have more than 2 years experience as a web developer.
         </span>
         <a href={MyCV} download>
           <button className="button-custom s-button">Download CV</button>

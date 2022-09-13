@@ -23,16 +23,16 @@ const Intro = () => {
                     <span> Mahima Induvara</span>
                     <span> I am a Frontend Developer with high level of experience in web designing
                         and development,</span>
-                    <span> producting the Quality work</span>
+                    <span> Producing the Quality work</span>
 
                 </div>
 
-                    <button className="button-custom i-button">Hire me</button>
+                <a href={'https://zeed.org.lk/'} target={'_blank'}><button className="button-custom i-button">Website</button></a>
 
                 <div className="i-icons">
-                    <a href={'https://github.com/'} target={'_blank'}><img src={Github} alt=""/> </a>
+                    <a href={'https://github.com/MahimaInduvara97'} target={'_blank'}><img src={Github} alt=""/> </a>
                     <a href={'https://www.linkedin.com/in/induvara-amarasekara-14363a1a2'} target={'_blank'}><img src={LinkedIn} alt="" /></a>
-                    <a href={'https://github.com/'} target={'_blank'}><img src={Instagram} alt="" /></a>
+                    <a href={'https://www.instagram.com/mahima_97__/'} target={'_blank'}><img src={Instagram} alt="" /></a>
                 </div>
             </div>
             <div className="i-right">

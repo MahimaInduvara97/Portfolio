@@ -1,5 +1,5 @@
 .works {
-    padding: 0 0rem 0 0rem;
+    padding: 0 0 0 0;
     display: flex;
     height: 90vh;
     margin-top: 1rem;
@@ -86,7 +86,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: "none";
+    background: none;
     box-shadow: var(--smboxShadow);
     background: white;
 }
@@ -106,7 +106,7 @@
 .blueCircle {
     background: #1949b8;
     left: 18rem;
-    top: 0rem;
+    top: 0;
 }
 .yellowCircle {
     background: #f5c32c;
@@ -131,10 +131,12 @@
         padding: 0;
         gap: 5rem;
     }
-
+    .port-details{
+        left: -3rem;
+    }
     .w-right {
         display: flex;
-        align-items: flex-start;
+        left: 0;
         justify-content:start;
         transform: scale(0.7);
     }

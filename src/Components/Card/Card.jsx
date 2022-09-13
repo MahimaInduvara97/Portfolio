@@ -7,7 +7,7 @@ const Card = ({emoji, heading, detail, color}) => {
       <img src={emoji} alt="" />
       <span>{heading}</span>
       <span>{detail}</span>
-      <button className="c-button">LEARN MORE</button>
+        <a href={"https://www.linkedin.com/in/induvara-amarasekara-14363a1a2/"} target={'_blank'}><button className="c-button">Eligibility</button></a>
     </div>
   );
 };

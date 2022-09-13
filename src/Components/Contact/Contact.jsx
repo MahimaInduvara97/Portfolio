@@ -50,9 +50,9 @@ const Contact = () => {
         <section className={"details-co"}>
             <div className={'mydetails'}>
                 <h3> <Location color="white" size={"1.2rem"} /> <span className={'dtls'}>Pelenwatte, pannipitiya</span></h3>
-                <h3> <Mobile color="white" size={"1.2rem"} /> <span className={'dtls'}>0774166098</span></h3>
-                <h3> <EmailI color="white" size={"1.2rem"} /> <span className={'dtls'}>induvara@gmail.com</span></h3>
-                <h3>   <Web color="white" size={"1.2rem"} /> <span className={'dtls'}>zeed.org.lk</span></h3>
+                <h3> <Mobile color="white" size={"1.2rem"} />  <a style={{textDecoration: "none"}} href={' https://wa.me/774166098'} target={'_blank'}><span className={'dtls'}>0774166098</span></a></h3>
+                <h3> <EmailI color="white" size={"1.2rem"} />  <a style={{textDecoration: "none"}}href={'mailto:induvara.amarasekara@gmail.com'} target={'_blank'}><span className={'dtls'}>induvara.amarasekara@gmail.com</span></a></h3>
+                <h3>   <Web color="white" size={"1.2rem"} />  <a style={{textDecoration: "none"}}href={'https://zeed.org.lk/'} target={'_blank'}><span className={'dtls'}>zeed.org.lk</span></a></h3>
             </div>
         </section>
       <div className="c-right">

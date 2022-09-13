@@ -22,13 +22,13 @@ function PortContent (){
                         <div className="w-left">
                             <div className="awesome">
                                 {/* dark Mode */}
-                                <span>Design and Develop</span>
-                                <span>PLC.LK</span>
+                                <span></span>
+                                <span>Project Details</span>
                                 <div className="port-details">
                                     <h3>Company :<span> {location.state.name}</span></h3>
                                     <h3>Developed :<span>{location.state.develop} </span></h3>
                                     <h3>Technologies :<span> {location.state.techno}</span></h3>
-                                    <h3>Source :<span>{links}</span></h3>
+                                    <h3>Source :<a href={links.toString()} target={'_blank'}><span>{links}</span></a></h3>
                                 </div>
 
                             <a herf={links} target={'_blank'}><button className="button-custom s-button">View Project</button></a>
