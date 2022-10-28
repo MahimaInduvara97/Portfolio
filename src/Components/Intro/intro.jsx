@@ -32,7 +32,7 @@ const Intro = () => {
                 <div className="i-icons">
                     <a href={'https://github.com/MahimaInduvara97'} target={'_blank'}><img src={Github} alt=""/> </a>
                     <a href={'https://www.linkedin.com/in/induvara-amarasekara-14363a1a2'} target={'_blank'}><img src={LinkedIn} alt="" /></a>
-                    <a href={'https://www.instagram.com/mahima_97__/'} target={'_blank'}><img src={Instagram} alt="" /></a>
+                    <a href={'https://www.instagram.com/induvaa/'} target={'_blank'}><img src={Instagram} alt="" /></a>
                 </div>
             </div>
             <div className="i-right">
