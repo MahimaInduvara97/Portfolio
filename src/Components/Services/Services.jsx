@@ -56,7 +56,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Html/CSS"}
-            detail={"Html, Css, JavaScript, Boostrap, Sass, React"}
+            detail={"Html, Css, JavaScript, Boostrap & Plugin Development"}
           />
         </motion.div>
         {/* 3rd Card */}
@@ -69,7 +69,7 @@ const Services = () => {
             emoji={Humble}
             heading={"WordPress"}
             detail={
-              "Develop Websites Using Wordpress CMS"
+              "Develop Websites using Wordpress CMS(Custom & Theme based)"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
