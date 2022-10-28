@@ -72,9 +72,16 @@
 @media screen and (max-width: 480px){
     .t-wrapper{
         padding: 0;
+        display: none;
     }
     .testimonial>img{
         width: 70px;
         height: 70px;
+    }
+    .testimonial>span{
+        font-size: 10px;
+    }
+    .testimonial{
+        border: none;
     }
   }

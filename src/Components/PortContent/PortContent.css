@@ -131,9 +131,6 @@
         padding: 0;
         gap: 5rem;
     }
-    .port-details{
-        left: -3rem;
-    }
     .w-right {
         display: flex;
         left: 0;
